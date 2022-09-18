@@ -1,0 +1,56 @@
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 0;
+}
+
+.button:active {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.button:hover {
+    border-left-color: rgba(161, 159, 159, 0.48);
+    border-right-color: rgba(161, 159, 159, 0.48);
+    border-top-color: rgba(161, 159, 159, 0.48);
+    border-bottom-color: rgba(161, 159, 159, 0.48);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.screen {
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 1;
+}
+
+.screen-background {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/Graphics/bg.png?fileID=2800000&guid=26958153dc63048d89c4e1e4be891a01&type=3#bg');
+    -unity-background-scale-mode: scale-and-crop;
+}
