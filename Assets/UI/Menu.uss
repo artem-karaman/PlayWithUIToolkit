@@ -54,3 +54,14 @@
     background-image: url('project://database/Assets/Graphics/bg.png?fileID=2800000&guid=26958153dc63048d89c4e1e4be891a01&type=3#bg');
     -unity-background-scale-mode: scale-and-crop;
 }
+
+.menu-center-panel {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.menu-background-color {
+    background-color: rgba(0, 0, 0, 0.39);
+}

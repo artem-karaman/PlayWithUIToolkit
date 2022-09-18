@@ -1,4 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=f503da1d36d98429886b1f53122acbaf&amp;type=3#Menu" />
-    <ui:VisualElement name="main-menu-screen" class="screen screen-background" />
+    <ui:VisualElement name="main-menu-screen" class="screen screen-background">
+        <ui:VisualElement name="menu-center-panel" class="menu-center-panel menu-background-color">
+            <ui:VisualElement name="menu-start-title" style="width: 100%; height: 35%; min-height: 150px; background-image: url(&apos;project://database/Assets/Graphics/logo.png?fileID=2800000&amp;guid=e32364f4cb43b4dabad5c7e364c1e110&amp;type=3#logo&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>
