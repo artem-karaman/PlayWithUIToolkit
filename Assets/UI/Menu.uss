@@ -65,3 +65,17 @@
 .menu-background-color {
     background-color: rgba(0, 0, 0, 0.39);
 }
+
+.menu-buttons-list {
+    align-items: center;
+    width: 50%;
+    min-width: 200px;
+}
+
+.menu-button {
+    width: 100%;
+    height: 100px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 40px;
+}
