@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PanelManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private UIDocument  _mainMenuScreen;
+
+    void OnEnable()
     {
-        
+        var root = _mainMenuScreen.rootVisualElement;
+        var startButton = root.Q<Button>("start-button");
+        if (startButton != null)
+        {
+            startButton.clickable.clicked += OnStartButtonClicked;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnStartButtonClicked()
     {
-        
+        Debug.Log("Start button was clicked");
     }
 }
