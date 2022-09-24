@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=f503da1d36d98429886b1f53122acbaf&amp;type=3#Menu" />
+    <ui:VisualElement name="settings-screen" class="screen screen-background">
+        <ui:VisualElement name="menu-center-panel" class="menu-center-panel menu-background-color">
+            <ui:VisualElement name="settings-title" style="width: 100%; height: 100px; min-height: 150px;">
+                <ui:Label text="Settings" display-tooltip-when-elided="true" style="width: 100%; height: 100%; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=95e84ab9714354764aac9f70f4e8dfc2&amp;type=3#NotInter-Regular&apos;); font-size: 40px; color: rgb(255, 255, 255); -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="menu-buttons-list" class="menu-buttons-list">
+                <ui:Button text="-" display-tooltip-when-elided="true" class="button menu-button" />
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="back-to-menu-button" class="button menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

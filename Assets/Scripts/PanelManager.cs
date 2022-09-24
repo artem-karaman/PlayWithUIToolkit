@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -5,6 +6,8 @@ public class PanelManager : MonoBehaviour
 {
     [SerializeField]
     private UIDocument  _mainMenuScreen;
+    [SerializeField]
+    private UIDocument _settingsScreen;
 
     void OnEnable()
     {
@@ -19,5 +22,19 @@ public class PanelManager : MonoBehaviour
     private void OnStartButtonClicked()
     {
         Debug.Log("Start button was clicked");
+    }
+
+    private void SetPanelEnableState(UIDocument panel, bool finalState)
+    {
+        if (finalState)
+        {
+            
+        }
+        else
+        {
+            
+        }
+
+        
     }
 }
