@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 public class PanelManager : MonoBehaviour
 {
     [SerializeField]
-    private UIDocument  _mainMenuScreen;
+    private UIDocument _mainMenuScreen;
     [SerializeField]
     private UIDocument _settingsScreen;
 
@@ -35,6 +35,6 @@ public class PanelManager : MonoBehaviour
             
         }
 
-        
+        panel.enabled = finalState;
     }
 }
