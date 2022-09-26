@@ -25,4 +25,9 @@ public class SimpleRuntimeUI : MonoBehaviour
                      " Count: " + _clickCount : "")
                 );
     }
+
+    void OnDisable()
+    {
+        _button.UnregisterCallback<ClickEvent>(PrintClickMessage);
+    }
 }
