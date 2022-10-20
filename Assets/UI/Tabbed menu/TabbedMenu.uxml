@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Tabbed%20menu/TabbedMenu.uss?fileID=7433441132597879392&amp;guid=cdb4fc55a5af6409fa2467fc241d8309&amp;type=3#TabbedMenu" />
+    <ui:VisualElement name="tabs">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="LondonTab" class="tab currentlySelectedTab" style="min-height: 20px; min-width: auto;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="ParisTab" class="tab" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="OttawaTab" class="tab" />
+    </ui:VisualElement>
+    <ui:VisualElement name="content">
+        <ui:Label text="London is the capital city of England." display-tooltip-when-elided="true" name="LondonContent" />
+        <ui:Label text="Paris is the capital of France." display-tooltip-when-elided="true" name="ParisContent" class="unselectedContent" />
+        <ui:Label text="Ottawa is the capital of Canada." display-tooltip-when-elided="true" name="OttawaContent" class="unselectedContent" />
+    </ui:VisualElement>
+</ui:UXML>
